@@ -66,9 +66,9 @@ function getChaplusMessage(mes, username) {
     'utterance': mes,
     'username' : username,
     'agentState' : {
-      'agentName' : '水島アキラbot', //LINE Botのチャネル名を入力してください
-      'age' : '21歳', //任意で数字を変更してください
-      'tone' : 'normal' //normal(標準)、kansai(関西弁)、koshu(甲州弁)、dechu(赤ちゃん言葉)の中から設定できます
+      'agentName' : '水島アキラbot', //LINE Botのチャネル名
+      'age' : '21歳',
+      'tone' : 'normal'
     }
   }
   var options = {
